@@ -10,6 +10,12 @@ The algorithm guarantees that **no cluster will exceed a specified maximum dista
 
 ---
 
+## Limitations
+
+The algorithm is highly inefficient for large datasets because it must evaluate the cluster diameter constraint for **every single data point** to build candidate clusters. This leads to a quadratic time complexity ($O(N^2)$) and redundant distance calculations.
+
+---
+
 ## Step-by-Step Mechanism
 
 1. **Set the Threshold ($\mathbf{d_{\text{max}}}$):**
