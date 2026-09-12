@@ -1,0 +1,20 @@
+[project]
+name = "QT-Clustering-Algorithm"
+version = "0.1.0"
+description = "QT-Clustering-Algorithm"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
