@@ -37,7 +37,7 @@ $$S = \frac{1}{N} \sum_{i=1}^{N} s(i)$$
 ## Outlier Percentage
 The Outlier Percentage is the fraction of data points that end up isolated in a cluster of their own (singleton clusters). A high value indicates that many points could not be grouped with any other point, which can happen when the clustering radius is too small:
 
-$$ \text{Outlier Percentage (\%)} = \left( \frac{N_{\text{outliers}}}{N_{\text{total}}} \right) \times 100 $$
+$$ \text{Outlier Percentage \%)} = \left( \frac{N_{\text{outliers}}}{N_{\text{total}}} \right) \times 100 $$
 
 **Where:**
 
